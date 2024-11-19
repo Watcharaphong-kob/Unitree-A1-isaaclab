@@ -29,14 +29,24 @@ This guide will help you set up your environment to use NVIDIA Isaac Sim and clo
     ```sh
     cd IsaacLab
     ```
+## Workspace Customization for Unitree A1
 
-## Running the Simulation
-
-1. Follow the instructions in the repository's README to set up and run the simulation.
-
+Edit or add 
+1. Navigate to Wrapper Folder commonly in
+```
+\source\extensions\omni.isaac.lab_tasks\omni\isaac\lab_tasks\manager_based\locomotion\velocity\config\a1
+```
+2. After Add new Wrapper in config you need to initialize the Wrapper in 
+```
+\manager_based\locomotion\velocity\__init__.py
+```
+3. You can also adding new rewarding in the 
+```
+\manager_based\locomotion\velocity\velocity_env_cfg.py
+```
 ## Additional Resources
 
 - [NVIDIA Isaac Sim Documentation](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/overview.html)
-- [NVIDIA Isaac Lab GitHub Repository](https://github.com/NVIDIA-Omniverse/IsaacSim)
+- [NVIDIA Isaac Lab Documentation](https://isaac-sim.github.io/IsaacLab/main/)
+- [NVIDIA Isaac Lab Documentation](https://github.com/isaac-sim/IsaacLab)
 
-Feel free to reach out if you encounter any issues during the setup process.
