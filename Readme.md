@@ -1,3 +1,8 @@
+# Project Example Task
+- Standing From crouch
+- Walking in Flat environment
+- Walking in Rough/stair environment
+
 # Project Setup
 
 This guide will help you set up your environment to use NVIDIA Isaac Sim and clone the NVIDIA Isaac Lab repository.
