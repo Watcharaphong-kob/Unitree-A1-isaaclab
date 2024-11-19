@@ -21,13 +21,13 @@ This guide will help you set up your environment to use NVIDIA Isaac Sim and clo
 3. Run the following command to clone the repository:
 
     ```sh
-    git clone https://github.com/NVIDIA-Omniverse/IsaacSim.git
+    git clone https://github.com/isaac-sim/IsaacLab.git
     ```
 
 4. Navigate into the cloned repository:
 
     ```sh
-    cd IsaacSim
+    cd IsaacLab
     ```
 
 ## Running the Simulation
